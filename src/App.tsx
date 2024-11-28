@@ -13,10 +13,10 @@ function App() {
 
   useEffect(() => {
     // Temps pour changer de page (en millisecondes)
-    const interval = 9000; // 9 secondes
+    const interval = 15000; // 15 secondes
 
     // Logique pour changer automatiquement de page
-    const pages = ["/1", "/2"]; // Liste des chemins
+    const pages = ["/", "/2"]; // Liste des chemins
     let currentPageIndex = 0;
 
     const intervalId = setInterval(() => {
@@ -42,7 +42,7 @@ function App() {
     <div className="app">
       <Navbard />
       <Routes>
-        <Route path="/1" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/2" element={<Referentiel />} />
       </Routes>
       <Footer />
