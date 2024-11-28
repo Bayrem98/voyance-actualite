@@ -17,8 +17,15 @@ const Navbard = () => {
     <>
       <div className="d-flex justify-content-center">
         <Navbar color="dark" style={{ borderRadius: 30 }}>
-          <p style={{ textAlign: "center", color: "yellow", fontSize: 16 }}>
-            Voyance-Actualité <br />
+          <p
+            style={{
+              textAlign: "center",
+              color: "yellow",
+              fontSize: 16,
+              fontWeight: "bold",
+            }}
+          >
+            Actualité du jour <br />
             <span style={{ color: "white" }}>{formattedDate}</span>
           </p>
         </Navbar>
