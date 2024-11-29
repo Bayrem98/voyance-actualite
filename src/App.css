@@ -1,0 +1,13 @@
+.flash {
+    animation: flash 1.5s infinite; /* Animation infinie */
+  }
+  
+  @keyframes flash {
+    0%, 100% {
+      opacity: 1; /* Entièrement visible */
+    }
+    50% {
+      opacity: 0.5; /* Semi-transparent */
+    }
+  }
+  
