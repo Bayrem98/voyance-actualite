@@ -20,18 +20,13 @@ const Navbard = () => {
 
   return (
     <>
-      <div className={`d-flex justify-content-center ${isFlashing ? "flash" : ""}`}>
+      <div
+        className={`d-flex justify-content-center ${isFlashing ? "flash" : ""}`}
+      >
         <Navbar color="dark" style={{ borderRadius: 30 }}>
-          <p
-            style={{
-              textAlign: "center",
-              color: "yellow",
-              fontSize: 16,
-              fontWeight: "bold",
-            }}
-          >
+          <p className="nav-text">
             Actualité du jour <br />
-            <span style={{ color: "white" }}>{formattedDate}</span>
+            <span className="nav-date">{formattedDate}</span>
           </p>
         </Navbar>
       </div>

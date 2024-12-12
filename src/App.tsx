@@ -11,7 +11,7 @@ import MouvementLunaire3 from "./component/pages/MouvementLunaire3";
 
 function App() {
   const navigate = useNavigate();
-  const pages = ["/", "/1", "/2", "/3"]; // Liste des chemins
+  const pages = ["/1"]; // Liste des chemins
   const [currentPageIndex, setCurrentPageIndex] = useState(0);
 
   useEffect(() => {

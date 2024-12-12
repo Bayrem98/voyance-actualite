@@ -1,13 +1,256 @@
+/* Styles Navbard */
 .flash {
-    animation: flash 1.5s infinite; /* Animation infinie */
+  animation: flash 1.5s infinite; /* Animation infinie */
+}
+
+@keyframes flash {
+  0%,
+  100% {
+    opacity: 1; /* Entièrement visible */
   }
-  
-  @keyframes flash {
-    0%, 100% {
-      opacity: 1; /* Entièrement visible */
+  50% {
+    opacity: 0.5; /* Semi-transparent */
+  }
+}
+
+.nav-text {
+  text-align: center;
+  color: yellow;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-date {
+  color: white;
+}
+
+/* Styles bande-info */
+.footer-info {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.bande-info {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: bold;
+  animation: fade-in-out 10s linear infinite;
+}
+@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.bande-info-text1 {
+  font-size: 15px;
+  color: yellow;
+}
+
+.bande-info-text2 {
+  font-size: 14px;
+}
+
+/* Styles MouvementLunaire1 */
+.container {
+  margin-top: -60px;
+}
+
+.titre-lunaire {
+  color: rgba(147, 147, 203, 0.866);
+  font-style: oblique;
+  margin-left: 35px;
+}
+
+.lune-active {
+  border-radius: 20px;
+  width: 440px;
+}
+
+.lune-active-para {
+  font-size: 13px;
+  text-align: justify;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.lune-active-para1 {
+  color: rgba(147, 147, 203, 0.866);
+  font-style: oblique;
+  font-size: 18px;
+}
+
+.plein-para2 {
+  color: rgba(147, 147, 203, 0.866);
+  font-style: oblique;
+  font-size: 16px;
+}
+
+.carte-lune-section {
+  margin-left: -50px;
+  margin-right: -50px;
+  margin-top: -20px;
+}
+
+.carte-lune {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h5-lunaire {
+  color: rgba(147, 147, 203, 0.866);
+  font-style: oblique;
+  text-align: center;
+}
+
+.nouvelle-lune-img,
+.plein-lune-img {
+  width: 390px;
+  border-radius: 20px;
+}
+
+.img-container {
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 1920px) {
+  /* Styles MouvementLunaire1 */
+  .container {
+    margin-top: -50px;
+  }
+
+  .titre-lunaire {
+    color: rgba(147, 147, 203, 0.866);
+    font-style: oblique;
+    margin-left: -250px;
+    font-size: 60px;
+  }
+
+  .lune-active {
+    border-radius: 20px;
+    width: 800px;
+    margin-left: -270px;
+  }
+
+  .lune-active-para {
+    font-size: 20px;
+    text-align: justify;
+    margin-right: -290px;
+    margin-left: 10px;
+  }
+
+  .lune-active-para1 {
+    color: rgba(147, 147, 203, 0.866);
+    font-style: oblique;
+    font-size: 25px;
+  }
+
+  .plein-para2 {
+    color: rgba(147, 147, 203, 0.866);
+    font-style: oblique;
+    font-size: 25px;
+  }
+
+  .carte-lune-section {
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-top: -20px;
+  }
+
+  .carte-lune {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .h5-lunaire {
+    color: rgba(147, 147, 203, 0.866);
+    font-style: oblique;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .nouvelle-lune-img,
+  .plein-lune-img {
+    width: 500px;
+    border-radius: 20px;
+  }
+
+  .img-container {
+    margin-left: 5px;
+  }
+
+  /* Styles Navbard */
+  .nav-text {
+    text-align: center;
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .nav-date {
+    color: white;
+  }
+
+  /* Styles bande-info */
+  .footer-info {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    overflow-x: hidden;
+  }
+
+  .bande-info {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    animation: fade-in-out 10s linear infinite;
+  }
+  @keyframes fade-in-out {
+    0% {
+      opacity: 0;
     }
-    50% {
-      opacity: 0.5; /* Semi-transparent */
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
     }
   }
-  
+
+  .bande-info-text1 {
+    font-size: 22px;
+    color: yellow;
+  }
+
+  .bande-info-text2 {
+    font-size: 20px;
+  }
+}

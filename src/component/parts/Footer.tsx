@@ -52,45 +52,13 @@ const Footer = () => {
 
   return (
     <>
-      <div>
-        <style>
-          {`
-            body {
-              margin: 0;
-              padding: 0;
-              font-family: Arial, sans-serif;
-              background-color: #f9f9f9;
-              color: #333;
-              overflow-x: hidden;
-            }
-
-            .bande-info {
-              position: fixed;
-              bottom: 0;
-              width: 100%;
-              background-color: #000;
-              color: #fff;
-              padding: 10px 20px;
-              text-align: center;
-              font-size: 16px;
-              font-weight: bold;
-              animation: fade-in-out 10s linear infinite;
-            }
-
-            @keyframes fade-in-out {
-              0% { opacity: 0; }
-              10% { opacity: 1; }
-              90% { opacity: 1; }
-              100% { opacity: 0; }
-            }
-          `}
-        </style>
+      <div className="footer-info">
         {astroData && currentKey && (
           <div className="bande-info">
-            <span style={{ fontSize: 15, color: "yellow" }}>
+            <span className="bande-info-text1">
               {currentKey.charAt(0).toUpperCase() + currentKey.slice(1)}
             </span>{" "}
-            <br /> <span style={{fontSize: 14}}>{currentPrediction}</span>
+            <br /> <span className="bande-info-text2">{currentPrediction}</span>
           </div>
         )}
       </div>
