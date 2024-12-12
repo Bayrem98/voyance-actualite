@@ -8,6 +8,7 @@ import MouvementLunaire1 from "./component/pages/MouvementLunaire1";
 import Home from "./component/pages/Home";
 import MouvementLunaire2 from "./component/pages/MouvementLunaire2";
 import MouvementLunaire3 from "./component/pages/MouvementLunaire3";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   const navigate = useNavigate();
@@ -40,6 +41,7 @@ function App() {
         <Route path="/3" element={<MouvementLunaire3 />} />
       </Routes>
       <Footer />
+      <SpeedInsights />
     </div>
   );
 }
