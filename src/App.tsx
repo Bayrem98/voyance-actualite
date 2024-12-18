@@ -12,11 +12,11 @@ import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   const navigate = useNavigate();
-  const pages = ["/1"]; // Liste des chemins
+  const pages = ["/", "/1", "/2", "/3"]; // Liste des chemins
   const [currentPageIndex, setCurrentPageIndex] = useState(0);
 
   useEffect(() => {
-    const interval = 40000; // 40 secondes
+    const interval = 55000; // 55 secondes
 
     const intervalId = setInterval(() => {
       // Calculer la prochaine page

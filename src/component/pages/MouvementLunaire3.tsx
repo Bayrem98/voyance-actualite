@@ -8,7 +8,7 @@ const MouvementLunaire3 = () => {
         style={{ marginTop: 50, padding: 10 }}
       >
         <Carousel controls={false} indicators={false} pause={false}>
-          <Carousel.Item interval={8000}>
+          <Carousel.Item interval={10000}>
             <div className="d-flex justify-content-between">
               <div>
                 <img
@@ -64,7 +64,7 @@ const MouvementLunaire3 = () => {
             </div>
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item interval={8000}>
+          <Carousel.Item interval={10000}>
             <div className="d-flex justify-content-between">
               <div style={{ marginTop: 50 }}>
                 <h2
@@ -120,7 +120,7 @@ const MouvementLunaire3 = () => {
             </div>
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item interval={8000}>
+          <Carousel.Item interval={10000}>
             <div className="d-flex justify-content-between">
               <div>
                 <img
@@ -181,7 +181,7 @@ const MouvementLunaire3 = () => {
             </div>
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item interval={8000}>
+          <Carousel.Item interval={10000}>
             <div className="d-flex justify-content-between">
               <div style={{ marginTop: 30 }}>
                 <h2
@@ -242,7 +242,7 @@ const MouvementLunaire3 = () => {
             </div>
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item interval={8000}>
+          <Carousel.Item interval={10000}>
             <div className="d-flex justify-content-between">
               <div style={{ marginTop: 30 }}>
                 <h2

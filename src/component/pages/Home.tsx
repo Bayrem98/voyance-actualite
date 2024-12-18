@@ -18,9 +18,8 @@ const Home = () => {
           l'évolution de la Lune au fil des jours. Fonctionnalités principales :
           Visualisation des phases lunaires (Nouvelle Lune, Pleine Lune, etc.).
           Suivi en direct de la trajectoire lunaire. Informations sur la
-          distance et la luminosité de la Lune. Astuce : Utilisez les flèches
-          pour explorer les cycles lunaires passés et futurs. Préparez-vous à
-          explorer les mystères de notre satellite naturel ! 🌌
+          distance et la luminosité de la Lune. Préparez-vous à explorer les
+          mystères de notre satellite naturel ! 🌌
         </p>
       </div>
     </>
