@@ -13,7 +13,7 @@ import MouvementLunaire1_4 from "./component/pages/MouvementLunaire1_4";
 
 function App() {
   const navigate = useNavigate();
-  const pages = ["/", "/1", "/2", "/3", "/4"]; // Liste des chemins
+  const pages = ["/", "/1", "/2", "/3"]; // Liste des chemins
   const [currentPageIndex, setCurrentPageIndex] = useState(0);
 
   useEffect(() => {
@@ -40,7 +40,6 @@ function App() {
         <Route path="/1" element={<MouvementLunaire1 />} />
         <Route path="/2" element={<MouvementLunaire1_4 />} />
         <Route path="/3" element={<MouvementLunaire3 />} />
-        <Route path="/4" element={<MouvementLunaire2 />} />
       </Routes>
       <Footer />
       <SpeedInsights />
