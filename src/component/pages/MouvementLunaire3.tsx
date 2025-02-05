@@ -67,7 +67,7 @@ const MouvementLunaire3 = () => {
           <Carousel.Item interval={10000}>
             <div className="d-flex justify-content-between">
               <div style={{ marginTop: 50 }}>
-                <h2
+                <h3
                   className="act-title"
                   style={{
                     color: "rgba(147, 147, 203, 0.866)",
@@ -76,7 +76,7 @@ const MouvementLunaire3 = () => {
                   }}
                 >
                   Les significations spirituelles des cycles lunaires
-                </h2>
+                </h3>
                 <p
                   className="act-para"
                   style={{
@@ -136,7 +136,7 @@ const MouvementLunaire3 = () => {
                 />
               </div>
               <div style={{ marginTop: 30 }}>
-                <h2
+                <h3
                   className="act-title"
                   style={{
                     color: "rgba(147, 147, 203, 0.866)",
@@ -145,7 +145,7 @@ const MouvementLunaire3 = () => {
                   }}
                 >
                   La lune croissante et ses significations
-                </h2>
+                </h3>
                 <p
                   className="act-para"
                   style={{
@@ -184,7 +184,7 @@ const MouvementLunaire3 = () => {
           <Carousel.Item interval={10000}>
             <div className="d-flex justify-content-between">
               <div style={{ marginTop: 30 }}>
-                <h2
+                <h3
                   className="act-title"
                   style={{
                     color: "rgba(147, 147, 203, 0.866)",
@@ -193,7 +193,7 @@ const MouvementLunaire3 = () => {
                   }}
                 >
                   La lune décroissante et ses significations
-                </h2>
+                </h3>
                 <p
                   className="act-para"
                   style={{
@@ -245,7 +245,7 @@ const MouvementLunaire3 = () => {
           <Carousel.Item interval={10000}>
             <div className="d-flex justify-content-between">
               <div style={{ marginTop: 30 }}>
-                <h2
+                <h3
                   className="act-title"
                   style={{
                     color: "rgba(147, 147, 203, 0.866)",
@@ -255,7 +255,7 @@ const MouvementLunaire3 = () => {
                 >
                   {" "}
                   La pleine lune et ses significations spirituelles
-                </h2>
+                </h3>
                 <p
                   className="act-para"
                   style={{
